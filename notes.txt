@@ -1,0 +1,30 @@
+Python
+-------
+>> It is a high-level, interpreted, general-purpose programming language.
+>> known for its simplicity and readability
+
+human written code ---> machine code.
+interpreted ---> line by line code execution.
+
+compilation ---> each and every line will be converted into machine code in one go. the executed
+interpreted ---> code will be converted and executed line by line.
+
+Extension --> .py
+to execute python file ---> python filename.
+
+First code 
+------------
+print(data)  --> printing something at the output.
+
+Variables
+----------
+>> a container. used to store some data.
+varName=data
+
+Basic syntax:
+---------------
+1) Indentation--> space before a block of code.
+2) Case-sensitive. uppercase and lowercase are treated as different things. (a=A)
+3) Comments ---> increases readability.
+   single line comment---> # 
+   multiline comments ---> ''' comments '''
