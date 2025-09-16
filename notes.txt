@@ -18,8 +18,14 @@ print(data)  --> printing something at the output.
 
 Variables
 ----------
->> a container. used to store some data.
+>> a name that stores a value in a memory.
 varName=data
+
+Rules of naming:
+----------------
+>> start with a letter or an underscore
+>> no spaces and no special char.
+>> case-sensitive.
 
 Basic syntax:
 ---------------
@@ -28,3 +34,26 @@ Basic syntax:
 3) Comments ---> increases readability.
    single line comment---> # 
    multiline comments ---> ''' comments '''
+
+
+
+Datatypes
+---------
+integer --> whole numbers --> -2,-1,0,1,2,3,33,400...
+float --> decimal numbers --> -2.22,9.99....2.0
+
+string --> Sequence of char wrapped with either '' or "".
+concatination --> '+' used to attach 2 strings together.
+formatted string--> f""
+
+boolean --> True or False 
+
+
+Type Casting
+------------
+>> Converting a datatype to another.
+type(obj) --> find out the datatype of given object. <class int>
+
+int() --> convert anything into integer. int('123')--> 123
+str()  --> into string
+float() --> into float
