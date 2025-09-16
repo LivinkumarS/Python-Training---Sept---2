@@ -15,6 +15,7 @@ to execute python file ---> python filename.
 First code 
 ------------
 print(data)  --> printing something at the output.
+input(str) --> prompt data from user. always return a string
 
 Variables
 ----------

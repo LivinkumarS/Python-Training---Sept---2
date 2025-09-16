@@ -32,8 +32,12 @@ age=54
 
 # print(type(f))
 
-print("His name is "+name+". He is "+str(age)+" years old.")
+# print("His name is "+name+". He is "+str(age)+" years old.")
 
-print(f"His name is {name}. He is {age} years old.")
+# print(f"His name is {name}. He is {age} years old.")
 
 # His name is Ajith kumar. He is 54 years old.
+
+
+a=int(input("Enter the sentence: ")) 
+print(type(a))
