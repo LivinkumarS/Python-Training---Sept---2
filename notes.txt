@@ -58,3 +58,61 @@ type(obj) --> find out the datatype of given object. <class int>
 int() --> convert anything into integer. int('123')--> 123
 str()  --> into string
 float() --> into float
+
+Operators
+----------
+5 + 6 = 11
++ ---> Oerator
+5,6--> Operands (the values on which operator works)
+
+Arithmetic:
+------------
++ add
+- sub 
+* mul
+/ div
+// floor div (return whole number).Ex: 30/20-->1.5 30//20-->1 
+% modulus ---> reminder
+** exponentiation. 2**2---> 2 power 2---> 4
+
+Comparison Operators (boolean)
+------------------------------
+== ---> equal.
+!= ---> not equal
+> ---> greater than
+< ---> lesser than
+>= ---> greater or equal
+<= ---> lesser or equal
+
+Logical Operators (Boolean Values)
+----------------------------------
+And ---> and ---> True --> both are True.
+Or  ---> or  ---> True --> Any one is True.
+Not ---> not --> invert a boolean
+
+Bool1    Bool2     And      or 
+True     True      True     True 
+True     False     False    True
+False    True      False    True
+False    False     False    False
+
+Assignment Operators
+--------------------
+= ---> assign
++= ---> add assign
+-= ---> sub and assign
+*= ---> mul and assign
+/= ---> div and assign
+//= ---> floor div and assign
+%=  ---> mod and assign
+**= ---> expo and assign
+
+Bitwise (bits)
+--------
+AND --> & ---> and operation with bits. 7&6
+OR --> | --> or operation with bits. 5|11
+NOT --> ~ --> not operations with bits (~n=-(1+n)). ~5
+X-OR --> ^ --> x-or between bits. 8^12
+right shift --> num>>pos --> 10>>2
+left shift ---> num<<pos --> 10<<2
+
