@@ -116,6 +116,12 @@ X-OR --> ^ --> x-or between bits. 8^12
 right shift --> num>>pos --> 10>>2
 left shift ---> num<<pos --> 10<<2
 
+Indexing and slicing
+----------------------
+len(obj) --> length of that obj.
+Indexing accessing elements using its corresponding index.
+var[ind]. negative indexing.
+
 
 Control Flow
 -------------
@@ -154,3 +160,46 @@ Ex:
 if cond1:
    if cond2:
       Block Of code
+
+
+Loops:
+---------
+>> Loop is a control structure that allows us to execute a block of code repeatedly until a condition is met.
+
+While Loop 
+-----------
+syntax:
+-------
+while condition:
+   block of code
+
+>> Runs as long as the condition is True.
+
+For Loop 
+---------
+>> To use for loop we need an iterable object.
+
+
+For Loop 
+--------
+syntax:
+---------
+for var in iterableObj:
+   block of code
+
+range in-built method 
+-----------------------
+>> used to create a temporary iterable object.
+
+range(end) --> range(5) --> [0,1,2,3,4]
+range(start,end) --> range(2,15) --> [2,3,4,5,6,7,8,9,10,11,12,13,14]
+range(start,end,step) ---> range(2,15,3)-->[2,5,8,11,14]
+
+
+Control Statements of Loops:
+------------------------------
+break --> used to stop a loop
+continue --> used to skip the current iteration
+
+1-100
+1,2,4,7,8,11,13,14,"buzz",16,17,19,22,23,26,28,29,"buzz"...100
