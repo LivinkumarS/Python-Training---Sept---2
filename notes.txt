@@ -58,6 +58,10 @@ type(obj) --> find out the datatype of given object. <class int>
 int() --> convert anything into integer. int('123')--> 123
 str()  --> into string
 float() --> into float
+list()
+tuple()
+set()
+dict()
 
 Operators
 ----------
@@ -121,6 +125,13 @@ Indexing and slicing
 len(obj) --> length of that obj.
 Indexing accessing elements using its corresponding index.
 var[ind]. negative indexing.
+
+Slicing ---> extract a particular rang of an object.
+obj[:end]
+obj[start:]
+obj[start:end]
+obj[start:end:step]
+obj[::end]
 
 
 Control Flow
@@ -203,3 +214,77 @@ continue --> used to skip the current iteration
 
 1-100
 1,2,4,7,8,11,13,14,"buzz",16,17,19,22,23,26,28,29,"buzz"...100
+
+
+Data Structures
+----------------
+>> It is a way to store, organise and manipulate data efficiently.
+
+Built in DS:
+------------
+List,
+Tuple,
+Set,
+Dictionary
+
+List 
+------
+>> [val1, val2....] --> to initiate a list
+>> Ordered, mutable and it allows duplicate
+
+In built Methods 
+----------------
+.append(ele) --> at the end adding an element
+.insert(ind,ele) --> adds an element at any index
+.remove(ele) ---> removing an element (first occur)
+.pop() ---> remove the last element.
+.pop(ind) --> removes that particular element
+.sort() ---> arranges an list in ascending order
+.reverse() ---> reverse the position of elements in a list.
+.index(ele) --> finds index of an element
+.count(ele) --> number of occur
+
+Tuple
+------
+>> (val1, val2....)
+>> Ordered, immutable (cannot be changed). allows duplicate.
+
+packing and unpacking
+----------------------
+person1 = ("Livinkumar",99,'FED')
+
+name,age,role=person1
+
+name=person1[0]
+age=person1[1]
+role=person1[2]
+
+In built methods 
+------------------
+.index(ele) --> finds index of an element
+.count(ele) --> number of occur
+
+Set 
+-----
+>> {val1, val2...}
+>> UnOrdered, Mutable, No duplicate.
+
+In built methods 
+-----------------
+set1.union(set2) 
+set1.intersection(set2) 
+set1.difference(set2) 
+
+Dictionary 
+-----------
+>> {kay1:val1,key2:val2.........}
+>>unordered, mutable. collection of key-value pairs.
+
+in built methods 
+-----------------
+.keys()
+.values()
+.items() ---> [(key1,val1),(key2,val2)....]
+
+List Traversal
+-----------------
