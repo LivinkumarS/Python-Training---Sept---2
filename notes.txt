@@ -286,5 +286,40 @@ in built methods
 .values()
 .items() ---> [(key1,val1),(key2,val2)....]
 
-List Traversal
------------------
+Functions 
+----------
+>> A block of reusable code that performs a specific task.
+>> it avoids repetition.
+
+syntax:
+--------
+def fnName():
+   block of code
+
+calling a function --> fnName()
+
+Parameters and arguments 
+---------------------------
+p --> variables defined in the function definition
+a --> Values passed when calling a function.
+
+Types of arguments 
+--------------------
+Positional argument --> order matters
+Keyword argument --> values are passed with paramaters name.
+Default argument --> Provide a default value if no argument is passed
+Arbitary Arguments --> *name --> collect every arguments as a tuple
+
+Return Keyword
+--------------
+1) to break the function.
+2) to return a value to the caller.
+
+
+Scope
+-------
+>> the region of a program where a variable can be accessed.
+
+Local Scope --> Variables defined inside a function. can be accessed only within that function.
+
+Global Scope --> Outside of the function. can be accessed anywhere.
