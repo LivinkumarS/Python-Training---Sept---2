@@ -45,7 +45,33 @@ float --> decimal numbers --> -2.22,9.99....2.0
 
 string --> Sequence of char wrapped with either '' or "".
 concatination --> '+' used to attach 2 strings together.
-formatted string--> f""
+formatted string--> f" {var1} {var2} "
+Strings are immutable.
+
+In built methods 
+-------------------
+.upper() ---> convert into uppercase
+.lower() ---> convert into lowercase
+.title() ---> convert into titlecase 
+
+.strip() --> removes excess space at begenning and ending.
+
+.startswith(subStr) --> boolean. checks if the string starts with given substring.
+.endswith(subStr) --> boolean. checks if the string ends with given substring.
+
+find(subStr) ---> returns position of the given substring. -1--> not found.
+.count(subStr) --> find the number of occur. 
+
+.replace(old, new) --> used to replace a particular substring.
+
+.split() ---> split the string into a list of elements.
+.join(list) --> joins the string inside a list
+
+String Operations 
+-----------------
++ --> concatination 
+* --> Repetition
+membership --> in, not in (Boolean). subStr in str
 
 boolean --> True or False 
 
@@ -323,3 +349,5 @@ Scope
 Local Scope --> Variables defined inside a function. can be accessed only within that function.
 
 Global Scope --> Outside of the function. can be accessed anywhere.
+
+
