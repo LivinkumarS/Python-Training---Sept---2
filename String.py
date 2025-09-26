@@ -18,3 +18,11 @@ str1="Python" #PythonPythonPython
 
 ans= 'Pyn' not in str1
 print(ans)
+
+# input
+# palindrome or not --> yes! or No!
+a=input("Enter the word :")
+if a==a[::-1]:
+    print("It is palindrome")
+else:
+    print("It is not palindrome")

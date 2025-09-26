@@ -351,3 +351,19 @@ Local Scope --> Variables defined inside a function. can be accessed only within
 Global Scope --> Outside of the function. can be accessed anywhere.
 
 
+Exception Handling 
+-------------------
+>> An exception is an error that occurs during program execution.
+
+Error: syntax mistake, Indentation error.... these errors will stop the program before the execution.
+
+Exception: An unexpected event at runtime (valueError, zeroDivError). 
+
+syntax 
+--------
+try:
+   block of code 
+except errName:
+   handling Block
+finally:
+   block of code
